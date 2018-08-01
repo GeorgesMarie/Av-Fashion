@@ -14,19 +14,19 @@ class Footer extends React.Component {
                                 <h6>INFORMATION</h6>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">The Brand</a>
+                                <a className="nav-footer pl-0" href="/">The Brand</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Local Stores</a>
+                                <a className="nav-footer pl-0" href="/">Local Stores</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Customer Service</a>
+                                <a className="nav-footer pl-0" href="/">Customer Service</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Privacy & Cookies</a>
+                                <a className="nav-footer pl-0" href="/">Privacy & Cookies</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Site Map</a>
+                                <a className="nav-footer pl-0" href="/">Site Map</a>
                             </li>
                         </ul>
                     </div>
@@ -37,19 +37,19 @@ class Footer extends React.Component {
                                 <h6>WHY BUY FROM US</h6>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Shipping & Returns</a>
+                                <a className="nav-footer pl-0" href="/">Shipping & Returns</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Secure Shopping</a>
+                                <a className="nav-footer pl-0" href="/">Secure Shopping</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Testimonials</a>
+                                <a className="nav-footer pl-0" href="/">Testimonials</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Award Winning</a>
+                                <a className="nav-footer pl-0" href="/">Award Winning</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Ethical trading</a>
+                                <a className="nav-footer pl-0" href="/">Ethical trading</a>
                             </li>
                         </ul>
                     </div>
@@ -60,22 +60,22 @@ class Footer extends React.Component {
                                 <h6>YOUR ACCOUNT</h6>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Sign In</a>
+                                <a className="nav-footer pl-0" href="/">Sign In</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Register</a>
+                                <a className="nav-footer pl-0" href="/">Register</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">View Cart</a>
+                                <a className="nav-footer pl-0" href="/">View Cart</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">View Your Lookbook</a>
+                                <a className="nav-footer pl-0" href="/">View Your Lookbook</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Track an Order</a>
+                                <a className="nav-footer pl-0" href="/">Track an Order</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Update Information</a>
+                                <a className="nav-footer pl-0" href="/">Update Information</a>
                             </li>
                         </ul>
                     </div>
@@ -86,22 +86,22 @@ class Footer extends React.Component {
                                 <h6>LOOKBOOK</h6>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Latest posts</a>
+                                <a className="nav-footer pl-0" href="/">Latest posts</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Men's Lookbook</a>
+                                <a className="nav-footer pl-0" href="/">Men's Lookbook</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Women's Lookbook</a>
+                                <a className="nav-footer pl-0" href="/">Women's Lookbook</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Lookbook's RSS Feed</a>
+                                <a className="nav-footer pl-0" href="/">Lookbook's RSS Feed</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">View Your lookbook</a>
+                                <a className="nav-footer pl-0" href="/">View Your lookbook</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Delete Your Lookbook</a>
+                                <a className="nav-footer pl-0" href="/">Delete Your Lookbook</a>
                             </li>
                         </ul>
                     </div>
@@ -112,16 +112,16 @@ class Footer extends React.Component {
                                 <h6>CONTACT DETAILS</h6>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Head Office : Avenue Fashion,</a>
+                                <a className="nav-footer pl-0" href="/">Head Office : Avenue Fashion,</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">180-182 Regent Street, London.</a>
+                                <a className="nav-footer pl-0" href="/">180-182 Regent Street, London.</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Telephone : 0123-456-789</a>
+                                <a className="nav-footer pl-0" href="/">Telephone : 0123-456-789</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link pl-0" href="/">Email : support@yourwebsite.com</a>
+                                <a className="nav-footer pl-0" href="/">Email : support@yourwebsite.com</a>
                             </li>
                         </ul>
                     </div>

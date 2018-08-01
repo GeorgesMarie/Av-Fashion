@@ -48,12 +48,18 @@ body {
   margin-top: 25px;
   z-index: 9999;
 }
+.changeColor {
+  background-color: #333;
+}
 .nav-item {
   font-size: 14px;
 }
 .nav-link {
   color: #222 !important;
   font-weight: 500;
+}
+.navLink-color {
+  color: #fff !important;
 }
 .form-control {
   border: 1px solid #e7e7e7 !important;
@@ -96,6 +102,12 @@ body {
 hr {
   margin-top: 2rem !important;
 }
+.filter-link {
+  display: block;
+  padding: .5rem 1rem;
+  color: #000;
+  font-weight: 400;
+}
 .filter-link:hover {
   color: #4ed3d3 !important;
 }
@@ -105,6 +117,9 @@ hr {
 }
 .inner-model {
   background-color: #f8f8f8;
+}
+.model-couple {
+  justify-content: space-between;
 }
 /* /Home Page */
 
@@ -155,5 +170,10 @@ h3 span {
 .avenue {
   color: #999999;
   font-size: 14px;
+}
+.nav-footer {
+  color: #000;
+  display: block;
+  padding: .5rem 1rem;
 }
 /* /Footer */

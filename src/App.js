@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Responsive.css';
 
 // mdb react
 import 'font-awesome/css/font-awesome.min.css';

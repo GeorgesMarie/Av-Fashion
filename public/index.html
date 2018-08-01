@@ -51,5 +51,22 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <!-- <script src="../src/style.js"></script> -->
+
+    <script>
+      $(function() {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 50) {
+            $('.navbar').addClass('changeColor');
+            $('.nav-link').addClass('navLink-color');
+          } 
+          if ($(this).scrollTop() < 50) {
+            $('header').removeClass('changeColor');
+            $('.nav-link').removeClass('navLink-color');
+          } 
+      });
+    });
+    </script>
   </body>
 </html>

@@ -24,21 +24,21 @@ class Home extends Component {
         <hr/>
             <div className="row">
                 <div>
-                    <ul className="nav">
+                    <ul className="nav nav-filter">
                         <li className="nav-item">
-                            <a className="nav-link filter-link" href="/">POPULAR</a>
+                            <a className="filter-link" href="/">POPULAR</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link filter-link" href="/">NEW ARRIVALS</a>
+                            <a className="filter-link" href="/">NEW ARRIVALS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link filter-link" href="/">BEST SELLERS</a>
+                            <a className="filter-link" href="/">BEST SELLERS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link filter-link" href="/">SPECIAL OFFERS</a>
+                            <a className="filter-link" href="/">SPECIAL OFFERS</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link filter-link" href="/">COMING SOON</a>
+                            <a className="filter-link" href="/">COMING SOON</a>
                         </li>
                     </ul>
                 </div>
@@ -48,7 +48,7 @@ class Home extends Component {
                 <div className="model-wrapper d-flex justify-content-between flex-wrap col-12">
 
                     <div className="inner-model d-flex justify-content-center align-items-center flex-column flex-wrap col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div className="model-couple d-flex justify-content-between align-items-center flex-wrap w-100">
+                        <div className="model-couple d-flex align-items-center flex-wrap w-100">
                             <img src={men} alt="Men Model 👨" className="img-fluid model" />
                             <img src={girl} alt=" Girl Model 👩" className="img-fluid model" />
                         </div>
@@ -57,7 +57,7 @@ class Home extends Component {
 
                     <div className="inner-model d-flex justify-content-center align-items-center flex-column flex-wrap col-lg-6 col-md-6 col-sm-12 col-12">
                         <img src={men2} alt="Men Model 👨" className="img-fluid model"/>
-                        <div className="model-couple d-flex justify-content-between align-items-center flex-wrap w-100">
+                        <div className="model-couple d-flex align-items-center flex-wrap w-100">
                             <img src={girl1} alt="Girl Model 👩" className="img-fluid model"/>
                             <img src={girl2} alt=" Girl Model 👩" className="img-fluid model"/>
                         </div>
@@ -70,7 +70,7 @@ class Home extends Component {
         <div className="container-fluid">
             <div className="row">
                 <div className="lookbooks d-flex justify-content-between align-items-center flex-wrap">
-                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm12 col-12">
+                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm-12 col-12">
                         <img src={menlookbook} alt="Men Model 👨" className="img-fluid lb-image"/>
                         <div className="description">
                             <h2 className="text-uppercase text-right">men's <br/>
@@ -85,7 +85,7 @@ class Home extends Component {
                         </div>
                     </div>
 
-                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm12 col-12">
+                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm-12 col-12">
                         <img src={girllookbook} alt="Men Model 👨" className="img-fluid lb-image"/>
                         <div className="description">
                             <h2 className="text-uppercase text-right">women's <br/>
@@ -100,7 +100,7 @@ class Home extends Component {
                         </div>
                     </div>
 
-                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm12 col-12">
+                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm-12 col-12">
                         <img src={photosilhouette} alt="Men Model 👨" className="img-fluid lb-image"/>
                         <div className="description">
                             <h2 className="text-uppercase text-right">your <br/>
