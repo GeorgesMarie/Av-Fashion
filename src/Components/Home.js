@@ -15,7 +15,7 @@ import girllookbook from '../img/homeImages/Girls/girl-lookbook.png';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <main>
         <div className="HomePage d-flex justify-content-end align-items-end">
             <button className="text-uppercase">shop men's collection</button>
         </div>
@@ -117,7 +117,7 @@ class Home extends Component {
                 </div>
             </div>
         </div>
-      </div>
+      </main>
     );
   }
 }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import './Responsive.css';
 
@@ -12,27 +13,29 @@ import 'mdbreact/dist/css/mdb.css';
 import TopElement from './Components/TopElement';
 import Header from './Components/Header';
 import Home from '../src/Components/Home';
+import Brand from '../src/Components/Brand';
+import Stores from '../src/Components/Stores';
+import SignIn from '../src/Components/SignIn';
 import Footer from '../src/Components/Footer';
+import Error from "../src/Components/Error";
 
 class App extends Component {
   render() {
     return (
-      <section>
-        <div className="App">
+      <BrowserRouter>
+        <div>
           <TopElement />
-        </div>
-
-        <header>
           <Header />
-        </header>
-
-        <main>
-          <Home />
-        </main>
-
-        <Footer />
-
-      </section>
+          <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/brand" component={Brand} />
+            <Route path="/stores" component={Stores} />
+            <Route path="/sign" component={SignIn} />
+            <Route component={Error} />
+          </Switch>
+          <Footer />
+        </div>
+      </BrowserRouter>
     );
   }
 }

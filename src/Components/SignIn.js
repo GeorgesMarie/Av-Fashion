@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Stores extends Component {
+class SignIn extends Component {
   render() {
     return (
         <main>
-            <h1>Welcome To The Stores Page ! 😎</h1>
+            <h1>Welcome To The Sign Page ! 😎</h1>
         </main>
           
     );
   }
 }
 
-export default Stores;
+export default SignIn;
