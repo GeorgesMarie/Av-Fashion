@@ -34,7 +34,7 @@ class Header extends React.Component {
         return (
             <Navbar dark expand="md" scrolling className="z-depth-0 w-100 position-fixed">
                 <NavbarBrand href="/">
-                    <img src={logo} alt="Logo"/>
+                    <img src={logo} alt="Logo" id="myLogo"/>
                 </NavbarBrand>
                 { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                 <Collapse isOpen = { this.state.collapse } navbar>

@@ -176,4 +176,7 @@ h3 span {
   display: block;
   padding: .5rem 1rem;
 }
+#accordionEx {
+  display: none;
+}
 /* /Footer */

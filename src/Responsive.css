@@ -19,12 +19,20 @@
     .avenue {
         font-size: 10px;
     }
-    .footer-inner {
-        display: none;
+    .footer-inner-child {
+        display: none !important;
+    }
+    #accordionEx {
+        display: block;
+        width: 100%;
+    }
+    h6 {
+        color: #000 !important;
+        font-weight: 500 !important;
     }
 }
 
-
+/* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 576px) and (max-width: 786px) {
     .filter-link {
         font-size: 11px;
@@ -34,5 +42,22 @@
     }
     .description p {
         font-size: 7px;
+    }
+    #accordionEx {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 786px) and (max-width: 992px) { 
+    #accordionEx {
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 992px) and (max-width: 1200px)  { 
+    #accordionEx {
+        display: none;
     }
 }
