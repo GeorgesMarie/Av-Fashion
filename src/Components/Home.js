@@ -49,17 +49,35 @@ class Home extends Component {
 
                     <div className="inner-model d-flex justify-content-center align-items-center flex-column flex-wrap col-lg-6 col-md-6 col-sm-12 col-12">
                         <div className="model-couple d-flex align-items-center flex-wrap w-100">
-                            <img src={men} alt="Men Model 👨" className="img-fluid model" />
-                            <img src={girl} alt=" Girl Model 👩" className="img-fluid model" />
+                            <div className="position-relative">
+                                <img src={men} alt="Men Model 👨" className="img-fluid model" />
+                                <p className="top-left"><sup>£</sup>89,99</p>
+                            </div>
+                            <div className="position-relative">
+                                <img src={girl} alt=" Girl Model 👩" className="img-fluid model" />
+                                <p className="top-left"><sup>£</sup>47,50</p>
+                            </div>
                         </div>
-                        <img src={men1} alt="Men Model 👨" className="img-fluid model" />
+                        <div className="position-relative">
+                            <img src={men1} alt="Men Model 👨" className="img-fluid model" />
+                            <p className="single-top-left"><sup>£</sup>69,95</p>
+                        </div>
                     </div>
 
                     <div className="inner-model d-flex justify-content-center align-items-center flex-column flex-wrap col-lg-6 col-md-6 col-sm-12 col-12">
-                        <img src={men2} alt="Men Model 👨" className="img-fluid model"/>
+                        <div className="position-relative">
+                            <img src={men2} alt="Men Model 👨" className="img-fluid model"/>
+                            <p className="single-top-left"><sup>£</sup>89,99</p>
+                        </div>
                         <div className="model-couple d-flex align-items-center flex-wrap w-100">
-                            <img src={girl1} alt="Girl Model 👩" className="img-fluid model"/>
-                            <img src={girl2} alt=" Girl Model 👩" className="img-fluid model"/>
+                            <div className="position-relative">
+                                <img src={girl1} alt="Girl Model 👩" className="img-fluid model"/>
+                                <p className="top-left"><sup>£</sup>29,95</p>
+                            </div>
+                            <div className="position-relative">
+                                <img src={girl2} alt=" Girl Model 👩" className="img-fluid model"/>
+                                <p className="top-left"><sup>£</sup>4,70</p>
+                            </div>
                         </div>
                     </div>
 
@@ -69,7 +87,7 @@ class Home extends Component {
 
         <div className="container-fluid">
             <div className="row">
-                <div className="lookbooks d-flex justify-content-between align-items-center flex-wrap">
+                <div className="lookbooks d-flex justify-content-between align-items-center flex-wrap my-4">
                     <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm-12 col-12">
                         <img src={menlookbook} alt="Men Model 👨" className="img-fluid lb-image"/>
                         <div className="description">

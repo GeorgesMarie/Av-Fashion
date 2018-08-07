@@ -30,10 +30,16 @@
         color: #000 !important;
         font-weight: 500 !important;
     }
+    .single-top-left {
+        left: 0;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 576px) and (max-width: 786px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
     .filter-link {
         font-size: 11px;
     }
@@ -41,15 +47,18 @@
         font-size: 20px;
     }
     .description p {
-        font-size: 7px;
+        font-size: 14px;
     }
     #accordionEx {
         display: none;
     }
+    .navbar-brand {
+        width: 35%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 786px) and (max-width: 992px) { 
+@media screen and (min-width: 768px) and (max-width: 992px) { 
     #accordionEx {
         display: none;
     }
@@ -59,5 +68,25 @@
 @media screen and (min-width: 992px) and (max-width: 1200px)  { 
     #accordionEx {
         display: none;
+    }
+}
+
+
+/* Breakpoints Intermédiaires */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .description p {
+        font-size: 10px;
+    }
+    .model {
+        width: 150px;
+    }
+    h2 {
+        font-size: 20px !important;
+    }
+    .single-top-left {
+        left: -50%;
+    }
+    .navbar-brand {
+        width: 25%;
     }
 }

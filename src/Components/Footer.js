@@ -4,7 +4,7 @@ class Footer extends React.Component {
     render() {
       return (
           <footer>
-            <div className="container mt-5 pt-4">
+            <div className="container pt-4">
                <div className="row">
 
                 <div className="footer-inner d-flex justify-content-between align-items-start flex-wrap w-100">

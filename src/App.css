@@ -79,6 +79,9 @@ body {
 .autumn-sale h6 {
   font-size: 30px;
 }
+.navbar-brand {
+  width: 20%;
+}
 /* /NavBar */
 
 
@@ -118,6 +121,16 @@ hr {
 .inner-model {
   background-color: #f8f8f8;
 }
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+}
+.single-top-left{
+  position: absolute;
+  top: 8px;
+  left: -80%;
+}
 .model-couple {
   justify-content: space-between;
 }
@@ -139,10 +152,10 @@ h2 span {
   font-weight: 300;
 }
 .description p {
-  font-size: 8px;
+  font-size: 12px;
 }
 .lb-image {
-  width: 40%;
+  width: 35%;
 }
 /* /LookBook */
 

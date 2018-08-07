@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'mdbreact';
 
 //Import Image
-import logo from '../img/logo.png';
+import logo from '../img/logo.svg';
 
 
 class Header extends React.Component {
