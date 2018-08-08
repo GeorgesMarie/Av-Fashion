@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-// Import Image
-import mapImage from '../img/map.png';
 
 class Stores extends Component {
   render() {
@@ -18,7 +16,7 @@ class Stores extends Component {
                 </div>
             </div>
             
-            <div className="container">
+            <div className="container country">
               <div className="row">
                 <div className="destinations d-flex justify-content-between align-content-center flex-wrap my-5">
 

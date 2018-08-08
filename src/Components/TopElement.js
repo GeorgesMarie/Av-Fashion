@@ -18,7 +18,7 @@ class TopElement extends Component {
 
                 <div>
                     <a href="/" className="connexion">Register</a> &nbsp; &nbsp;
-                    <a href="/sign" className="connexion">Sign In</a> &nbsp; &nbsp;
+                    <a href="/connexion" className="connexion">Sign In</a> &nbsp; &nbsp;
                     <select id="mdb-select">
                         <option defaultValue="empty" data-icon="./img/shop.png">empty</option>
                         <option defaultValue="example 1" data-icon="https://mdbootstrap.com/img/Photos/Avatars/avatar-1.jpg" className="rounded-circle">example 1</option>

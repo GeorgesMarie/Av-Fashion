@@ -73,11 +73,59 @@ h6 {
     color: #fff;
     border-color: #00C8C8;
 }
-/* /Stores Page css */
-
-
 @media screen and (min-width: 576px) and (max-width: 767px) {
-    .container {
+    .country {
         max-width: 90% !important;
     }
 }
+/* /Stores Page css */
+
+
+/* Sign In Page css */
+.btn-sign, .btn-register {
+    color: #737373;
+    padding: 10px 22px;
+    letter-spacing: 2px;
+    border: 1px solid #737373;
+}
+.btn-sign:hover {
+    letter-spacing: 2px;
+    background-color: #00C8C8;
+    color: #fff;
+    border-color: #00C8C8;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+}
+.btn-register:hover {
+    letter-spacing: 2px;
+    background-color: #00C8C8;
+    color: #fff;
+    border-color: #00C8C8;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+}
+input {
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+.exclu {
+    font-size: 12px;
+}
+.infos {
+    font-size: 12px;
+    color: #00c8c8;
+}
+.checkbox-text {
+    font-size: 12px;
+}
+/* /Sign In Page css */
+
