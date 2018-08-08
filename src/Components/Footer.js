@@ -60,7 +60,7 @@ class Footer extends React.Component {
                                 <h6>YOUR ACCOUNT</h6>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-footer pl-0" href="/">Sign In</a>
+                                <a className="nav-footer pl-0" href="/connexion">Sign In</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-footer pl-0" href="/">Register</a>
@@ -86,7 +86,7 @@ class Footer extends React.Component {
                                 <h6>LOOKBOOK</h6>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-footer pl-0" href="/">Latest posts</a>
+                                <a className="nav-footer pl-0" href="/lookbook">Latest posts</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-footer pl-0" href="/">Men's Lookbook</a>

@@ -15,7 +15,8 @@ import Header     from './Components/Header';
 import Home       from './Components/Home';
 import Brand      from './Components/Brand';
 import Stores     from './Components/Stores';
-import Connexion     from './Components/Connexion';
+import Lookbook   from './Components/Lookbook';
+import Connexion  from './Components/Connexion';
 import Footer     from './Components/Footer';
 import Error      from "./Components/Error";
 
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path="/" component={Home} exact />
             <Route path="/brand" component={Brand} />
             <Route path="/stores" component={Stores} />
+            <Route path="/lookbook" component={Lookbook} />
             <Route path="/connexion" component={Connexion} />
             <Route component={Error} />
           </Switch>

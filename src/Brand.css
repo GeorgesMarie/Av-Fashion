@@ -129,3 +129,77 @@ input {
 }
 /* /Sign In Page css */
 
+
+/* Lookbook Page css */
+.jane {
+    height: 341.28px;
+    background-image: url("../src/img/lookbook/Girls/girl-5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right
+}
+.lb-model {
+    width: 90%;
+    background-color: #f8f8f8;
+}
+.lb-model:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 1px 0px 12px 0px rgba(50, 50, 50, 0.3);
+    -moz-box-shadow: 1px 0px 12px 0px rgba(50, 50, 50, 0.3);
+    box-shadow: 1px 0px 12px 0px rgba(50, 50, 50, 0.3);
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.jane {
+    padding: 30px 10px;
+    background-color: #dddee0;
+}
+.jane h4, .new-look h4 {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 34px;
+}
+.jane h4 span, .new-look h4 span {
+    font-weight: 300;
+}
+.jane p, .new-look p {
+    font-size: 10px;
+    font-weight: 400;
+}
+.btn-view, .btn-shop {
+    color: #737373;
+    padding: 10px 22px;
+    letter-spacing: 2px;
+    border: 1px solid #737373;
+}
+.btn-view:hover, .btn-shop:hover  {
+    letter-spacing: 2px;
+    background-color: #00C8C8;
+    color: #fff;
+    border-color: #00C8C8;
+    transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+}
+.reference {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.new-look {
+    background-color: #efefed;
+    height: auto;
+    background-image: url("../src/img/lookbook/Girls/girl.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.winner-logo {
+    width: 40%;
+}
+/* /Lookbook Page css */

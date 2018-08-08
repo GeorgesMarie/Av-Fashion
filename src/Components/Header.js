@@ -119,7 +119,7 @@ class Header extends React.Component {
                                 <div className="wrapper-dropdown">
                                     <div>
                                         <h6>OUR LOOKBOOKS</h6>
-                                        <DropdownItem href="#">Latest Posts (mixed)</DropdownItem>
+                                        <DropdownItem href="/lookbook">Latest Posts (mixed)</DropdownItem>
                                         <DropdownItem href="#">Men's LookBook</DropdownItem>
                                         <DropdownItem href="#">Women's LookBook</DropdownItem>
                                     </div>

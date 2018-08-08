@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
+import Lookbooks from './Lookbooks';
 
 // Import Images
 import men from '../img/homeImages/Mens/men.png';
 import men1 from '../img/homeImages/Mens/men-1.png';
 import men2 from '../img/homeImages/Mens/men-2.png';
-import menlookbook from '../img/homeImages/Mens/men-lookbook.png';
-import photosilhouette from '../img/homeImages/Mens/photo-silhouette.png'
 
 import girl from '../img/homeImages/Girls/girl.png';
 import girl1 from '../img/homeImages/Girls/girl-1.png';
 import girl2 from '../img/homeImages/Girls/girl-2.png';
-import girllookbook from '../img/homeImages/Girls/girl-lookbook.png';
 
 class Home extends Component {
   render() {
@@ -54,7 +52,7 @@ class Home extends Component {
                                 <p className="top-left"><sup>£</sup>89,99</p>
                             </div>
                             <div className="position-relative">
-                                <img src={girl} alt=" Girl Model 👩" className="img-fluid model" />
+                                <img src={girl} alt="Girl Model 👩" className="img-fluid model" />
                                 <p className="top-left"><sup>£</sup>47,50</p>
                             </div>
                         </div>
@@ -87,52 +85,7 @@ class Home extends Component {
 
         <div className="container-fluid">
             <div className="row">
-                <div className="lookbooks d-flex justify-content-between align-items-center flex-wrap my-4">
-                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm-12 col-12">
-                        <img src={menlookbook} alt="Men Model 👨" className="img-fluid lb-image"/>
-                        <div className="description">
-                            <h2 className="text-uppercase text-right">men's <br/>
-                                <span>lookbook</span>
-                            </h2>
-                            <p className="text-right">Lorem ipsum dolor sit amet eras facilisis <br/>
-                                consectetur adipiscing elit lor, integer lorem <br/>
-                                consecteur dignissim laciniqui. <br/>
-                                Elementum metus facilisis ut phasellu.
-                            </p>
-                            <button className="text-uppercase text-white float-right">view now</button>
-                        </div>
-                    </div>
-
-                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm-12 col-12">
-                        <img src={girllookbook} alt="Men Model 👨" className="img-fluid lb-image"/>
-                        <div className="description">
-                            <h2 className="text-uppercase text-right">women's <br/>
-                                <span>lookbook</span>
-                            </h2>
-                            <p className="text-right">Lorem ipsum dolor sit amet eras facilisis <br/>
-                                consectetur adipiscing elit lor, integer lorem <br/>
-                                consecteur dignissim laciniqui. <br/>
-                                Elementum metus facilisis ut phasellu.
-                            </p>
-                            <button className="text-uppercase text-white float-right">view now</button>
-                        </div>
-                    </div>
-
-                    <div className="look_book d-flex justify-content-around align-items-center col-lg-4 col-md-4 col-sm-12 col-12">
-                        <img src={photosilhouette} alt="Men Model 👨" className="img-fluid lb-image"/>
-                        <div className="description">
-                            <h2 className="text-uppercase text-right">your <br/>
-                                <span>lookbook</span>
-                            </h2>
-                            <p className="text-right">Lorem ipsum dolor sit amet eras facilisis <br/>
-                                consectetur adipiscing elit lor, integer lorem <br/>
-                                consecteur dignissim laciniqui. <br/>
-                                Elementum metus facilisis ut phasellu.
-                            </p>
-                            <button className="text-uppercase text-white float-right">view now</button>
-                        </div>
-                    </div>
-                </div>
+                <Lookbooks />
             </div>
         </div>
       </main>
