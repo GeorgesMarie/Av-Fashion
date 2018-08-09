@@ -203,3 +203,12 @@ input {
     width: 40%;
 }
 /* /Lookbook Page css */
+
+/* Product Page css */
+.ave {
+    color: #00C8C8;
+}
+.linetrough {
+    text-decoration: line-through;
+}
+/* /Product Page css */

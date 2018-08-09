@@ -16,6 +16,7 @@ import Home       from './Components/Home';
 import Brand      from './Components/Brand';
 import Stores     from './Components/Stores';
 import Lookbook   from './Components/Lookbook';
+import Product   from './Components/Product';
 import Connexion  from './Components/Connexion';
 import Footer     from './Components/Footer';
 import Error      from "./Components/Error";
@@ -32,6 +33,7 @@ class App extends Component {
             <Route path="/brand" component={Brand} />
             <Route path="/stores" component={Stores} />
             <Route path="/lookbook" component={Lookbook} />
+            <Route path="/product" component={Product} />
             <Route path="/connexion" component={Connexion} />
             <Route component={Error} />
           </Switch>

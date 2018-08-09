@@ -48,7 +48,7 @@ class Header extends React.Component {
                                     <div>
                                         <h6>CASUALS</h6>
                                         <DropdownItem href="#">Jackets</DropdownItem>
-                                        <DropdownItem href="#">Hoodies & Sweatshirts</DropdownItem>
+                                        <DropdownItem href="/product">Hoodies & Sweatshirts</DropdownItem>
                                         <DropdownItem href="#">Polo Shirts</DropdownItem>
                                         <DropdownItem href="#">Sportswear</DropdownItem>
                                         <DropdownItem href="#">Trousers & Chinos</DropdownItem>
